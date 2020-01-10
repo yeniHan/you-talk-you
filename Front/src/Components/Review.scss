@@ -1,0 +1,12 @@
+.reviews{
+    background: #e0aa9d47;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 10px;
+    .content{
+        margin: 13px 0;
+    }
+}

@@ -1,0 +1,95 @@
+@import "../Style/constants.scss";
+
+#reserve-popup{
+
+
+    background: #f9f9f9;
+    margin: auto;
+    width: 464px;
+    display: flex;
+    position: relative;
+    top: -22px;
+    border-radius: 6px;
+    overflow-y: auto;
+    font-size: 14px;
+
+    #content{
+        width: 561px;
+        margin: 20px;
+        >div{
+            margin-bottom: 13px;
+        }
+
+        #title{    
+            font-size: 24px;
+            margin-bottom: 9px;
+        }
+
+        #coursename{
+            font-size: 15px;
+        }
+
+        #dateNtime div:nth-child(1){
+            margin-bottom: 10px;
+        }
+
+        input[name=time]{
+            width: 131px;
+            position: relative;
+            left: 3px;
+            margin-right: 4px;
+        }
+
+        textarea{
+            width: -webkit-fill-available;
+            height: 75px;
+            margin-top: 11px
+        }
+
+        .field-name{
+            color: gray;
+            margin: 0;            
+            margin-right: 10px;
+            font-size: 13px;
+        }
+
+        #credit-pay-btn{
+            margin: 10px 0;
+            width: fit-content;
+            height: 23px;
+            text-align: center;
+            background: #f48f36;
+            color: white;
+ 
+            cursor: pointer;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        #popup-reserve-btn{
+            margin: 41px 10px 10px 0;
+            width: fit-content;
+            text-align: center;
+            background: gray;
+            color: white;
+            cursor: pointer;
+            font-size: 15px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            &.able{
+                background: $btnColor;
+                border: 1px solid #616161;
+            }
+        }
+    }
+    #ic-close{
+        position: relative;
+        left: -7px;
+        top: -1px;
+        cursor: pointer;
+        margin-left: -11px;
+        font-size: 19px;
+        color: gray;
+    }
+
+}

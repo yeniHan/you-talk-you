@@ -1,0 +1,59 @@
+#review-popup{
+    background: #f9f9f9;
+    margin: auto;
+    width: 577px;
+    display: flex;
+    border-radius: 6px;
+    
+
+    >div:nth-child(1){
+        width: 561px;
+        margin: 30px;
+    }
+
+    #score{
+        margin-bottom: 22px;
+        #fieldnameNscore{
+            display: flex;
+            .field-name{
+                margin-right: 5px;
+            }
+            .scores{
+                margin: 0;
+            }
+        }
+        select[name=score]{
+            font-size: 17px;
+            width: 100px;
+        }
+    }
+
+    #review{
+        textarea[name=review]{
+            width: -webkit-fill-available;
+            height: 100px;
+        }
+    }
+
+    #send-review-btn{
+        margin: 10px 0;
+        width: 80px;
+        height: 23px;
+        text-align: center;
+        color: white;
+        border: 1px solid #616161;
+        cursor: pointer;
+        background: #2602ef;
+        
+    }
+
+    .ic-close{
+        position: relative;
+        left: -5px;
+        top: 2px;
+        cursor: pointer;
+        color: gray;
+        font-size: 15px;
+        
+    }
+}

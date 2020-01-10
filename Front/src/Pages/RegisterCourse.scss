@@ -1,0 +1,84 @@
+@import "../Style/constants.scss";
+
+
+#register-course{
+    
+    margin: 48px auto;
+    display: flex;
+    flex-direction: column;
+    width: 648px;
+    margin-top: 98px;
+    background: white;
+    padding: 42px;
+    align-items: center;
+    box-shadow: 5px 5px 5px $shadowColor;
+
+    .title{
+        text-align: center;
+        font-size: 39px;
+        color: #636161;
+        margin-bottom: 66px;
+        width: 332px;
+        align-self: center;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    .input-box{
+        margin-bottom: 22px;
+
+        #crc-name-limit{
+            margin: 0 6px;
+            font-size: 12px;
+        }
+        >div{
+            margin-bottom: 4px;
+            color: gray;
+        }
+        select,input, textarea{
+            font-size: 15px;
+        }
+        select{
+            height: 22px;
+            cursor: pointer;
+            margin-left: 4px;
+            &[name=lang]{
+                margin-left: 0;
+            }
+        }
+        input[type=number]{
+            width: 149px;
+        }
+        input[type=text]{
+            width: 500px;
+        }
+        textarea{
+            height: 193px;
+            width: -webkit-fill-available;;
+        }
+ 
+    }
+
+    button{
+        font-size: 19px;
+        padding: 8px 15px;
+        background: $primaryColor;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 35px 5px;
+        width: 138px;
+        align-self: center;
+    }
+
+    #optional-field{
+        >div{
+            color: gray;            
+        }
+    }
+
+}

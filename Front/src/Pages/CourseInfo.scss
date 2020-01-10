@@ -1,0 +1,113 @@
+@import '../Style/constants.scss';
+
+
+#course-info{
+    margin-top: 32px;
+    padding: 34px;
+    font-size: 14px;
+    background: $infoBackgroundColor;
+
+    >div{
+        margin: 15px auto;
+        width: 603px;
+        padding: 23px;
+        background: white;
+        box-shadow: 5px 5px 5px $shadowColor;
+        border-radius: 6px;
+    }
+    #coursename{
+        font-size: 28px;
+    }
+    .field-name{
+        margin-bottom: 11px;
+        color: gray;
+    }
+    #intro-video{
+        text-align: center;
+    }
+    .col-name{
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+
+    #course-details{
+        .fields{
+            margin-bottom: 14px;
+        }
+    }
+
+    #teacher{
+        #photoNinfo{
+            display: flex;
+            justify-content: space-evenly;
+    
+    
+            #photo{
+                width: 220px;
+                height: 220px;
+                border-radius: 106px;
+                box-shadow: 1px -1px 10px $shadowColor;
+                border: 4px solid white;
+            }
+    
+            #info{
+                width: 300px;
+ 
+                .content-row{
+                    font-size: 18px;
+                    color: gray;     
+                    margin-bottom: 6px;               
+                }
+                #professional{
+                    font-size: 15px;
+                    color: gray;
+                }
+    
+                #usernameNflag{
+                    display: flex;
+                    align-items: center;
+                }
+    
+                #username{
+                    font-size: 22px;
+                }
+    
+                #flag-img{
+                    width: 32px;
+                    border-radius: 4px;
+                    height: 17px;
+                    margin-left: 9px;
+                }
+            }
+        }
+    }
+
+    #review{
+        #fieldnameNscore{
+            display: flex;
+        }
+        #review-btn{
+            margin-left: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        
+        }
+    }
+
+    #reserve-btn{
+        font-size: 19px;
+        padding: 8px 15px;
+        background: #ff4338;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        width: 177px;
+        text-align: center;
+    }
+
+    .wrapper{
+        width: 100%;
+        margin: 0;
+        background: $wrapperBackground;
+    }
+}

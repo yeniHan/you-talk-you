@@ -1,0 +1,40 @@
+
+body{
+   background:  #d8d4d463;
+   
+   .App{
+       >div:nth-child(2){
+           margin-top: 25px;
+       }
+
+    //    &.search-teachers{
+    //       background: ;
+    //       height: 100vh;
+    //       overflow: hidden;
+    //    }
+   }
+}
+
+button{
+    border-style: inherit;
+}
+
+.wrapper{
+    display: none;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #00000069;
+    z-index: 200;
+    margin: 0;
+    height: 100vh;
+
+    &.show-popup{
+        display: flex;
+    }
+}
+
+//** Fonts**
+// msg
+// font-family: 'Rubik', sans-serif;

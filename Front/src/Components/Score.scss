@@ -1,0 +1,45 @@
+.scores{
+    color:#ffc312e6;
+    margin: 10px;
+    i{
+        margin-right: 4px;
+    }
+    .score{
+        color: gray;
+    }
+}
+
+#teacher-info, #course-info{
+    #review{
+        .scores{
+            margin: 0;
+            margin-left: 10px;
+        }
+
+        #review-list{
+            .scores{
+                margin: 0;
+            }
+        }
+    }
+}
+
+#course-info{
+    #teacher{
+        .scores{
+            margin-left: 0;
+            margin-bottom: 35px;
+        }
+    }
+
+    #review{
+        .scores{
+            margin: 0 11px;
+        }
+    }
+
+    
+}
+
+
+

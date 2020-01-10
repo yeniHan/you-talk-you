@@ -1,0 +1,24 @@
+#msg-box{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 87px;
+    font-size: 13px;
+    padding-bottom: 30px;
+
+    
+    &.no-msg{
+        height: 100vh;
+        justify-content: center;
+        margin-top: unset;
+        height: 100vh;
+        padding: 0;    
+    }
+
+    #no-data{
+        font-size: 13px;
+        align-self: center;
+    }
+}

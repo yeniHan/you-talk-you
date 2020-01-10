@@ -1,0 +1,18 @@
+.level{
+    display: flex;
+    width: 42px;
+    justify-content: space-between;
+    align-items: center;
+    
+    div{
+        width: 4px;
+        height: 12px;
+        border: 1px solid #1b00f7;
+
+        &.fill{
+            background: #1b00f7;
+        }
+    }
+    
+
+}

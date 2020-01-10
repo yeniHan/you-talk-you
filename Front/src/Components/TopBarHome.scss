@@ -1,0 +1,52 @@
+#top-bar__home{
+    &.top-bar{
+        z-index: 100;
+        display: flex;
+        width: 100%;
+        justify-items: center;
+        padding: 54px 0px;
+        position: absolute;
+        top: 0px;
+        height: 30px;
+        justify-content: space-between;
+    }
+
+    .main-logo{
+        display: flex;
+        height: 40px;
+        margin-left: 110px;
+        cursor: pointer;
+    
+        img{
+            width: 31px;
+            margin-right: 5px;
+        }
+        div{
+            font-weight: bold;
+            font-size: 25px;
+            color: white;
+            font-family:'Baloo Bhai', cursive;
+        }
+    }
+
+    .top-menu{
+        width: 183px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 110px;
+        >div{
+            color: white;
+            border-radius: 16px;
+            width: 75px;
+            border: 1.4px solid white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,74 @@
+//For Signup & login
+export const FAILURE_REQ_FOR_SIGNUPLOGIN = 'FAILURE_REQ_FOR_SIGNUPLOGIN';
+
+
+//For "Signup" 
+export const SENDING_REQ_FOR_SIGNUP = 'SENDING_REQ_FOR_SIGNUP';
+export const SUCCESS_REQ_FOR_SIGNUP = 'SUCCESS_REQ_FOR_SIGNUP';
+
+//For Login
+export const SENDING_REQ_FOR_LOGIN = 'SENDING_REQ_FOR_LOGIN';
+export const SUCCESS_REQ_FOR_LOGIN = 'SUCCESS_REQ_FOR_LOGIN';
+export const LOGOUT = 'LOGOUT'
+
+//For error
+export const ADD_ERROR = 'ADD_ERROR';
+export const DELETE_ERROR = 'DELETE_ERROR';
+
+//For "PROFILE" page
+//1) "SHOW" order
+export const FETCH_PROFILE = 'FETCH_PROFILE';
+export const SUCCESS_GET_PROFILE = 'SUCCESS_GET_PROFILE';
+export const FAILURE_GET_PROFILE = 'FAILURE_GET_PROFILE';
+//2) "ADD" order
+export const SUCCESS_EDIT_PROFILE = 'SUCCESS_EDIT_PROFILE';
+export const RESET_EDIT_SUCCESS = 'RESET_EDIT_SUCCESS';
+
+//For "Register a course" page
+export const SUCCESS_REGISTER_COURSE = 'SUCCESS_REGISTER_COURSE';
+export const RESET_REGISTER_COURSE_SUCCESS = 'RESET_REGISTER_COURSE_SUCCESS';
+
+
+
+//For "SearchTeachers" page
+export const GET_TEACHERS = 'GET_TEACHERS';
+// export const 
+// export const 
+
+
+//For "ReviewPopup" page
+export const SUCCESS_ADD_REVIEW= 'SUCCESS_ADD_REVIEW_SUCCESS';
+export const RESET_ADD_REVIEW_SUCCESS = 'RESET_ADD_REVIEW_SUCCESS';
+
+//For "ReservePopup" page
+export const SUCCESS_RESERVE_LESSON = 'SUCCESS_RESERVE_LESSON';
+export const RESET_RESERVE_LESSON_SUCCESS = 'RESET_RESERVE_LESSON_SUCCESS';
+
+// for "MsgBox" page
+export const SUCCESS_GET_MSGS = 'SUCCESS_GET_MSGS';
+export const SUCCESS_SET_READ = 'SUCCESS_SET_READ';
+export const SUCCESS_SEND_MSG = 'SUCCESS_SEND_MSG';
+export const RESET_SEND_MSG_SUCCESS = 'RESET_SEND_MSG_SUCCESS';
+
+// For MyCourses
+export const SUCCESS_GET_MY_COURSES = 'SUCCESS_GET_MY_COURSES';
+
+
+// For MySchedule
+export const SUCCESS_GET_MY_SCHEDULE = 'SUCCESS_GET_MY_SCHEDULE';
+
+//MyTeachers
+export const SUCCESS_GET_MY_TEACHERS = 'SUCCESS_GET_MY_TEACHERS';
+
+//MyStudents
+export const SUCCESS_GET_MY_STUDENTS = 'SUCCESS_GET_MY_STUDENTS';
+
+
+//MyAccount
+export const SUCCESS_EDIT_ACCOUNT = 'SUCCESS_EDIT_ACCOUNT';
+export const RESET_EDIT_ACCOUNT_SUCCESS = 'RESET_EDIT_ACCOUNT_SUCCESS';
+export const SUCCESS_GET_ACCOUNT = 'SUCCESS_GET_ACCOUNT';
+
+
+// For Statics
+export const SUCCESS_GET_STATICS = 'SUCCESS_GET_STATICS';

@@ -1,0 +1,21 @@
+#my-teachers, #my-students{
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    // height: 100vh;
+    margin: auto;
+    margin-top: 87px;
+    width: 999px;
+
+    &.no-data{
+        display: flex;
+        margin-top: unset;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #no-data{
+        font-size: 13px;
+        align-self: center;
+    }
+}

@@ -1,0 +1,61 @@
+@import '../Style/constants.scss';
+
+#top-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    padding: 5px;
+}
+
+#main-logo {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    div {
+        font-weight: bold;
+        color: #ff4338;
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 22px;
+        margin-left: 3px;
+    }
+    
+    img{
+        height: 30px;
+    }
+}
+
+#top-menu {
+    display: flex;
+    margin-right: 170px;
+    align-items: center;
+
+    i{
+        font-size: 21px;
+        margin-right: 7px;
+    }
+  
+    span {
+        font-size: 19px;
+    }
+    
+    >div:hover{
+        color: rgba(68, 57, 57, 0.753);
+        cursor: pointer;
+    }
+    
+    div{
+        margin: 0px 10px;
+        color: rgba(112, 112, 112, 0.753);
+    }
+    #ic-msg, #ic-account {
+        font-size: 34px;
+    }
+ 
+}
+
+// i, span{
+//     color: rgba(112, 112, 112, 0.753);
+// }

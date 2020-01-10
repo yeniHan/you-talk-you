@@ -1,0 +1,19 @@
+#statics{
+    margin-top: 59px;
+    padding: 26px;
+    background: rgba(253, 168, 168, 0.24);
+    text-align: center;
+    #title{
+        font-size: 20px;
+        color: gray;
+        margin-bottom: 11px;
+    }
+    #charts{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        >div{
+            margin: 13px;
+        }
+    }
+}

@@ -1,0 +1,286 @@
+@import "../Style/constants.scss";
+
+#teacher-profile, #student-profile{
+    padding: 8px 203px 30px 203px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    #title{
+        text-align: center;
+        font-size: 35px;
+        color: #636161;
+        width: 246px;
+        margin-bottom: 17px;
+    }
+    #columns {
+        border-radius: 17px;
+        display: flex;
+        width: 702px;
+        font-size: 13px;
+        background: white;
+        box-shadow: 0px 7px 22px #8080806b;
+        padding: 19px;
+        
+        .field-name{
+            padding-right: 12px;
+            color: gray;
+        }
+
+        #column-1 {
+            >div{
+                margin: 0 0 38px 0;
+                background: #80808014;
+                padding: 6px;
+                border-radius: 8px;
+            }
+            #photo{
+                text-align: center;
+                background: unset;
+                img{
+                    width: 259px;
+                    height: 277px;
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 106px;
+                    box-shadow: 1px -1px 10px $shadowColor;
+                    border: 4px solid white;
+                    box-shadow: 0px 7px 22px #8080806b;
+                    margin: 38px 0;
+                }
+            }
+
+            #username{
+                font-size: 22px;
+                margin-bottom: 7px;
+                background: unset;
+            }
+
+            #nationality{      
+                display: flex;
+                select {
+                    width: 146px;
+                    font-size: 15px;
+                    option{
+                        cursor: pointer;                         
+                    }
+                }
+
+                img{
+                    width: 41px;
+                    height: 25px;
+                    margin: 0 3px;
+                    border: 1px solid gray;                    
+                    &.no{
+                        display: none;
+                    }
+                }
+            }
+
+            #tags{
+                #condition{
+                    font-size: 13px;
+                }
+                #tags-list{
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 8px 0px;
+                
+                }
+                input{
+                    font-size: 15px;
+                }
+                .ic-add{
+                    color: #bbbaba;
+                    font-size: 21px;
+                    position: relative;
+                    top: 3px;
+                    margin: 0 2px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        #column-2{
+            width: -webkit-fill-available;
+            margin-left: 30px;
+
+            >div{
+                margin: 2px 0px;
+                margin-bottom: 33px;
+                background: #80808014;
+                padding: 6px;
+                border-radius: 8px;
+            }
+
+            #gender{
+                display: flex;
+                
+                input[type=radio] {
+                    display: none;
+                }
+
+                label{
+                    width: 74px;
+                    height: 27px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: white;
+                    background: #b9b9b9;
+                    cursor: pointer;                     
+                    &[for=gender-male]{
+                        border-bottom-left-radius: 9px;
+                        border-top-left-radius: 9px;
+                    }
+                    &[for=gender-female]{
+                        border-bottom-right-radius: 9px;
+                        border-top-right-radius: 9px;
+                    }
+                    &.checked{
+                        background:$primaryColor;
+                    }
+                }
+                // label[for=gender-female]{
+                //     background: gray;
+                // }
+                // label[for=gender-male]{
+                //     background: #5858ff;
+                // }
+            }
+
+            #experience{
+                display: flex;
+                select{
+                    font-size: 15px;
+                    option{
+                        cursor: pointer;                         
+                    }
+                    
+                }
+  
+            }
+            #professional{
+                display: flex;
+
+                .ic-toggle {
+                    display: none;
+                    height: 44px;
+                    width: 46px;
+                    position: relative;
+                    top: -7px;
+                    cursor: pointer;                     
+
+                    &.checked{
+                        display: block;
+                    }
+  
+                }
+           
+            }
+
+            #introduction{
+                .field-name{
+                    margin-bottom: 7px;
+                }
+                textarea{
+                    width: 400px;
+                    height: 171px;
+                    font-size: 15px;
+                    margin: 3px 0;
+                }
+            }
+            #available-langs{
+                .field-name{
+                    margin-bottom: 7px;
+                }
+                button{
+                    margin-left: 20px;
+                    border: 1px solid gray;
+                }
+                #available-langs-list{
+                    display: flex;
+                    flex-wrap: wrap;
+        
+                }
+        
+            }
+
+            #teaching-langs{
+                
+                .field-name {
+                    margin-bottom: 7px; 
+                }
+                #teaching-langs-list{
+                    display: flex;
+                    flex-wrap: wrap;
+        
+
+                }
+            }
+
+            #courses {
+                .field-name {
+                    margin-bottom: 7px; 
+                }
+                .courses{
+                    display: flex;
+                    margin-bottom: 5px;
+                    cursor: pointer;
+                }
+                .crs-names{
+                    font-weight: bold;
+                    max-width: 317px;
+                }
+                .crs-langs{
+                    color: blue;
+                    margin-left: 13px;
+                }
+
+            }
+
+            #intro-video{
+                span{
+                    font-size: 13px;
+                    margin: 0 5px;
+                }
+                input{
+                    min-width: 400px;
+                    font-size: 15px;
+                }
+                #instruction{
+                    font-size: 13px;
+                    margin: 3px 0;
+                }
+            }
+
+            
+        }
+    }
+
+    #edit-btn, #register-crs-btn{
+        font-size: 19px;
+        padding: 8px 15px;
+        background: $primaryColor;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+        margin: 0px 5px;
+    }
+    #edit-btn{
+        width: 126px;
+        border-radius: 5px;
+    }
+    #register-crs-btn{
+        width: 157px;
+        border-radius: 5px;        
+    }
+}
+
+#teacher-profile  #btns{
+    margin: 41px 50% 11px 50%;
+    width: 303px;    
+}
+#student-profile  #btns{
+    margin: 19px 50%;        
+    width: 133px;
+}

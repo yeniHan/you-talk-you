@@ -1,0 +1,81 @@
+@import '../Style/constants.scss';
+
+
+
+
+
+#msg-popup-myteachers{    
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin: auto;
+    width: 458px;
+    padding: 30px;
+    display: flex;
+    height: 278px;
+    z-index: 1000;
+    overflow-y: auto;
+    font-size: 13px;
+
+
+    #imgNfrom{
+        display: flex;
+        align-items: center;
+        margin-bottom: 13px;
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 106px;
+            box-shadow: 1px -1px 10px $shadowColor;        
+            border: 4px solid white;
+            margin-right: 18px;
+        }
+
+        #fromName{
+            span{
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+    #content-box{
+        width: -webkit-fill-available;
+        display: inherit;
+        flex-direction: column;
+
+        textarea{
+            width: -webkit-fill-available;
+            height: 110px;
+            font-size:  13px;
+        }
+    }
+
+
+    #send-btn{
+        align-self: flex-end;
+        margin-top: 7px;
+        height: 21px;
+        cursor: pointer;
+        color: white;
+        padding: 5px;
+        width: 81px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 6px;
+        background: $btnColor;
+        
+    }
+
+
+  
+
+    #ic-close{
+        position: relative;
+        cursor: pointer;
+        font-size: 22px;
+        color: gray;
+        right: -24px;
+        top: -28px;
+    }
+}

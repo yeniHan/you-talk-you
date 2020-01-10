@@ -1,0 +1,47 @@
+#schedule-popup{
+    background: #f9f9f9;
+    margin: auto;
+    width: 577px;
+    display: flex;
+    border-radius: 6px;
+    padding: 8px;
+    height: 335px;
+    overflow-y: auto;
+
+    #content-box{
+        width: -webkit-fill-available;
+        margin-right: -12px;
+        padding: 23px;
+
+        #datetime{
+            font-size: 25px;
+            margin-bottom: 11px;
+        }
+        .lesson{
+            font-size: 14px;
+            padding: 5px;
+            background: #0000ff0a;
+            border-radius: 6px;
+            margin-bottom: 3px;
+            border: 1px solid #80808040;
+            color: gray;
+
+            .time{
+                font-size: 15px;
+                color: gray;
+                &.confirm{
+                    color: blue;
+                }
+            }
+            .tname, .crsname{
+                color: #ff00f7;
+            }
+        }
+    }
+
+    #ic-close{
+        cursor: pointer;
+        color: gray;
+        font-size: 15px;
+    }
+}

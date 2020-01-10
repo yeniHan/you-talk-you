@@ -1,0 +1,85 @@
+
+#carousel{
+    display: flex;
+    position: absolute;
+    top: 72px;
+    left: -610px;
+    align-items: center;
+
+    #tzone-info{
+        color: gray;
+        position: relative;
+        left: 246px;
+        top: 18px;
+        font-size: 13px;
+    }
+
+    &.zero_one{
+        transition: left 0.5s ease;
+        left: -1430px;
+    }
+    &.zero_mone{
+        transition: left 0.5s ease;
+        left: 209px;
+    }
+    &.mone_zero{
+        transition: left 0.5s ease;
+        left: -610px;
+    }
+    &.one_zero{
+        transition: left 0.5s ease;
+        left: -610px;
+    }
+
+
+
+    .arrow{
+        top: 266px;
+        position: fixed;
+        font-size: 50px;
+        cursor: pointer;
+        color: #80808073;
+    }
+    #right-arrow{
+        left: 1009px;
+    }
+
+    #left-arrow{
+        left: 186px;
+    }
+    .cal{
+        box-shadow: -2px 4px 5px #8080806b;
+        background:#ffffffde; 
+        padding: 10px;
+        border-radius: 6px;
+        margin: 28px 39px;
+        width: 717px;
+        .month-name{
+            font-size: 17px;
+        }
+
+        .days{
+            width: 806px;
+            display: flex;
+            flex-flow: wrap;
+
+            .day{
+                cursor: pointer;
+                width: 84px;
+                height: 61px;
+                background: #f927f212;
+                margin: 3px;
+                font-size: 11px;
+                padding: 6px;
+                border-radius: 3px;
+                .time{
+                    color: gray;
+                    &.confirm{
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
