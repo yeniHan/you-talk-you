@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "expired-storage": "^1.0.2",
     "filereader": "^0.10.3",
     "fusioncharts": "^3.13.5-sr.1",
